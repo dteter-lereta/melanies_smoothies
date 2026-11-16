@@ -1,1 +1,12 @@
-
+definition_version: 2
+entities:
+  streamlit_app:
+    type: streamlit
+    main_file: Custom Smoothie Order Form.py
+    title: Untitled 3
+    query_warehouse: COMPUTE_WH
+    compute_pool: SYSTEM_COMPUTE_POOL_CPU
+    artifacts:
+      - pyproject.toml
+      - Custom Smoothie Order Form.py
+      - .streamlit/config.toml
